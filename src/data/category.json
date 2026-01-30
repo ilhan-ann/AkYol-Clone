@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "personal_computers",
+    "icon": "",
+    "subcategories": [
+      { "id": 11, "name": "all_in_one_pcs" },
+      {
+        "id": 12,
+        "name": "laptops_ultrabooks",
+        "subcategories": [
+          { "id": 121, "name": "gaming_laptops" },
+          { "id": 122, "name": "ultrabooks" }
+        ]
+      },
+      { "id": 13, "name": "displays" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "pc_equipment",
+    "icon": "",
+    "subcategories": [
+      { "id": 21, "name": "cpu" },
+      {
+        "id": 22,
+        "name": "coolers",
+        "subcategories": [
+          {
+            "id": 221,
+            "name": "cpu_cooler",
+            "subcategories": [
+              { "id": 2211, "name": "coolers" },
+              { "id": 2212, "name": "liquid_coolers" }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "liquid_cooling",
+            "subcategories": [
+              { "id": 2221, "name": "single_loop" },
+              { "id": 2222, "name": "custom_loop" }
+            ]
+          },
+          { "id": 223, "name": "case_cooler" },
+          { "id": 224, "name": "other" }
+        ]
+      },
+      { "id": 23, "name": "motherboards" },
+      { "id": 24, "name": "ssd" },
+      { "id": 25, "name": "internal_hdd" },
+      { "id": 26, "name": "dvd_rw" },
+      { "id": 27, "name": "graphics_cards" },
+      { "id": 28, "name": "power_supplies" },
+      { "id": 29, "name": "pc_cases_no_psu" },
+      { "id": 30, "name": "pc_cases_with_psu" },
+      { "id": 31, "name": "expansion_devices" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "peripherals_accessories",
+    "icon": "",
+    "subcategories": [
+      { "id": 31, "name": "keyboards" },
+      { "id": 32, "name": "mice" },
+      { "id": 33, "name": "headsets" },
+      { "id": 34, "name": "webcams" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "network_equipment",
+    "icon": "",
+    "subcategories": [
+      { "id": 41, "name": "routers" },
+      { "id": 42, "name": "switches" },
+      { "id": 43, "name": "wifi_adapters" },
+      { "id": 44, "name": "network_cables" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "storages_usb",
+    "icon": "",
+    "subcategories": [
+      { "id": 51, "name": "usb_flash" },
+      { "id": 52, "name": "external_hdd" },
+      { "id": 53, "name": "memory_cards" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "smartphones_gadgets",
+    "icon": "",
+    "subcategories": [
+      { "id": 61, "name": "smartphones" },
+      { "id": 62, "name": "smart_watches" },
+      { "id": 63, "name": "power_banks" }
+    ]
+  }
+]

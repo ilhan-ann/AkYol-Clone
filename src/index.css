@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+button{
+  cursor: pointer;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+@theme {
+  --color-custom-blue: #5E83DE;
+  --color-custom-hover-blue: #6E90E1;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} 
+
+.animate-ticker {
+  animation: ticker 30s linear infinite;
+}
