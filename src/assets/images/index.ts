@@ -7,8 +7,8 @@ export {default as google} from './google.svg'
 
 
 // Banner images
-export {default as banner1} from './Banner/banner1.png'
-export {default as banner2} from './Banner/banner2.png'
-export {default as banner3} from './Banner/banner3.png'
-export {default as banner4} from './Banner/banner4.png'
-export {default as banner5} from './Banner/banner5.png'
+export {default as banner1} from './Banner/banner1.jpg'
+export {default as banner2} from './Banner/banner2.jpg'
+export {default as banner3} from './Banner/banner3.jpg'
+
+export {default as product1} from './product1.jpg'

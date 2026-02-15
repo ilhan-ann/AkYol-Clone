@@ -2,101 +2,747 @@
   {
     "id": 1,
     "name": "personal_computers",
-    "icon": "",
     "subcategories": [
-      { "id": 11, "name": "all_in_one_pcs" },
       {
-        "id": 12,
-        "name": "laptops_ultrabooks",
+        "id": 11,
+        "name": "pc_components",
         "subcategories": [
-          { "id": 121, "name": "gaming_laptops" },
-          { "id": 122, "name": "ultrabooks" }
+          {
+            "id": 111,
+            "name": "processors_cpu"
+          },
+          {
+            "id": 112,
+            "name": "computer_cooling",
+            "subcategories": [
+              {
+                "id": 1121,
+                "name": "cpu_coolers"
+              },
+              {
+                "id": 1122,
+                "name": "liquid_cooling_systems"
+              },
+              {
+                "id": 1123,
+                "name": "case_fans"
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "name": "motherboards"
+          },
+          {
+            "id": 114,
+            "name": "solid_state_drives_ssd",
+            "subcategories": [
+              {
+                "id": 1141,
+                "name": "ssd_2_5"
+              },
+              {
+                "id": 1142,
+                "name": "ssd_m2"
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "name": "hard_drives_for_pc",
+            "subcategories": [
+              {
+                "id": 1151,
+                "name": "new_hard_drives"
+              },
+              {
+                "id": 1152,
+                "name": "refurbished_hard_drives"
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "name": "optical_drives_for_pc"
+          },
+          {
+            "id": 117,
+            "name": "graphics_cards"
+          },
+          {
+            "id": 118,
+            "name": "power_supplies"
+          },
+          {
+            "id": 119,
+            "name": "pc_cases_without_psu"
+          },
+          {
+            "id": 120,
+            "name": "pc_cases_with_psu"
+          },
+          {
+            "id": 121,
+            "name": "expansion_cards"
+          }
         ]
       },
-      { "id": 13, "name": "displays" }
+      {
+        "id": 12,
+        "name": "computers_all_in_one_pcs",
+        "subcategories": [
+          {
+            "id": 122,
+            "name": "desktop_computers"
+          },
+          {
+            "id": 123,
+            "name": "mini_pcs"
+          },
+          {
+            "id": 124,
+            "name": "all_in_one_pcs"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "laptops_ultrabooks",
+        "subcategories": [
+          {
+            "id": 131,
+            "name": "gaming_laptops"
+          },
+          {
+            "id": 132,
+            "name": "office_laptops"
+          },
+          {
+            "id": 133,
+            "name": "ultrabooks"
+          },
+          {
+            "id": 134,
+            "name": "apple_macbook"
+          },
+          {
+            "id": 135,
+            "name": "laptop_cooling_pads"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "monitors",
+        "subcategories": [
+          {
+            "id": 141,
+            "name": "gaming_monitors"
+          },
+          {
+            "id": 142,
+            "name": "office_monitors"
+          },
+          {
+            "id": 143,
+            "name": "monitor_mounts_stands"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 2,
-    "name": "pc_equipment",
-    "icon": "",
+    "name": "peripherals_accessories",
     "subcategories": [
-      { "id": 21, "name": "cpu" },
+      {
+        "id": 21,
+        "name": "keyboards",
+        "subcategories": [
+          {
+            "id": 211,
+            "name": "wired_keyboards"
+          },
+          {
+            "id": 212,
+            "name": "wireless_keyboards"
+          }
+        ]
+      },
       {
         "id": 22,
-        "name": "coolers",
+        "name": "computer_mice",
         "subcategories": [
           {
             "id": 221,
-            "name": "cpu_cooler",
-            "subcategories": [
-              { "id": 2211, "name": "coolers" },
-              { "id": 2212, "name": "liquid_coolers" }
-            ]
+            "name": "wired_mice"
           },
           {
             "id": 222,
-            "name": "liquid_cooling",
-            "subcategories": [
-              { "id": 2221, "name": "single_loop" },
-              { "id": 2222, "name": "custom_loop" }
-            ]
-          },
-          { "id": 223, "name": "case_cooler" },
-          { "id": 224, "name": "other" }
+            "name": "wireless_mice"
+          }
         ]
       },
-      { "id": 23, "name": "motherboards" },
-      { "id": 24, "name": "ssd" },
-      { "id": 25, "name": "internal_hdd" },
-      { "id": 26, "name": "dvd_rw" },
-      { "id": 27, "name": "graphics_cards" },
-      { "id": 28, "name": "power_supplies" },
-      { "id": 29, "name": "pc_cases_no_psu" },
-      { "id": 30, "name": "pc_cases_with_psu" },
-      { "id": 31, "name": "expansion_devices" }
+      {
+        "id": 23,
+        "name": "keyboard_mouse_sets",
+        "subcategories": [
+          {
+            "id": 231,
+            "name": "wired_sets"
+          },
+          {
+            "id": 232,
+            "name": "wireless_sets"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "mouse_pads"
+      },
+      {
+        "id": 25,
+        "name": "keyboard_stickers"
+      },
+      {
+        "id": 26,
+        "name": "pc_speakers"
+      },
+      {
+        "id": 27,
+        "name": "webcams"
+      }
     ]
   },
   {
     "id": 3,
-    "name": "peripherals_accessories",
-    "icon": "",
+    "name": "office_equipment",
     "subcategories": [
-      { "id": 31, "name": "keyboards" },
-      { "id": 32, "name": "mice" },
-      { "id": 33, "name": "headsets" },
-      { "id": 34, "name": "webcams" }
+      {
+        "id": 31,
+        "name": "conference_equipment"
+      },
+      {
+        "id": 32,
+        "name": "laser_printers"
+      },
+      {
+        "id": 33,
+        "name": "inkjet_printers"
+      },
+      {
+        "id": 34,
+        "name": "scanners"
+      },
+      {
+        "id": 35,
+        "name": "paper_shredders"
+      },
+      {
+        "id": 36,
+        "name": "laminators"
+      },
+      {
+        "id": 37,
+        "name": "fax_machines"
+      },
+      {
+        "id": 38,
+        "name": "dot_matrix_printers"
+      }
     ]
   },
   {
     "id": 4,
     "name": "network_equipment",
-    "icon": "",
     "subcategories": [
-      { "id": 41, "name": "routers" },
-      { "id": 42, "name": "switches" },
-      { "id": 43, "name": "wifi_adapters" },
-      { "id": 44, "name": "network_cables" }
+      {
+        "id": 41,
+        "name": "routers",
+        "subcategories": [
+          {
+            "id": 411,
+            "name": "wan_routers"
+          },
+          {
+            "id": 412,
+            "name": "adsl_routers"
+          },
+          {
+            "id": 413,
+            "name": "sim_card_routers"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "wifi_bluetooth_adapters"
+      },
+      {
+        "id": 43,
+        "name": "wifi_signal_boosters"
+      },
+      {
+        "id": 44,
+        "name": "modems_portable_routers"
+      },
+      {
+        "id": 45,
+        "name": "switches_splitters"
+      },
+      {
+        "id": 46,
+        "name": "network_adapters"
+      },
+      {
+        "id": 47,
+        "name": "network_cables"
+      },
+      {
+        "id": 48,
+        "name": "server_cabinets"
+      }
     ]
   },
   {
     "id": 5,
-    "name": "storages_usb",
-    "icon": "",
+    "name": "smartphones_gadgets",
     "subcategories": [
-      { "id": 51, "name": "usb_flash" },
-      { "id": 52, "name": "external_hdd" },
-      { "id": 53, "name": "memory_cards" }
+      {
+        "id": 51,
+        "name": "smartphones"
+      },
+      {
+        "id": 52,
+        "name": "tablets"
+      },
+      {
+        "id": 53,
+        "name": "smart_watches_bands",
+        "subcategories": [
+          {
+            "id": 531,
+            "name": "smart_watches"
+          },
+          {
+            "id": 532,
+            "name": "fitness_bands"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "ebook_readers"
+      },
+      {
+        "id": 55,
+        "name": "graphic_tablets"
+      },
+      {
+        "id": 56,
+        "name": "power_banks"
+      },
+      {
+        "id": 57,
+        "name": "mobile_accessories"
+      }
     ]
   },
   {
     "id": 6,
-    "name": "smartphones_gadgets",
-    "icon": "",
+    "name": "audio_equipment",
     "subcategories": [
-      { "id": 61, "name": "smartphones" },
-      { "id": 62, "name": "smart_watches" },
-      { "id": 63, "name": "power_banks" }
+      {
+        "id": 61,
+        "name": "soundbars"
+      },
+      {
+        "id": 62,
+        "name": "home_theaters"
+      },
+      {
+        "id": 63,
+        "name": "dvd_players"
+      },
+      {
+        "id": 64,
+        "name": "yandex_smart_speakers"
+      },
+      {
+        "id": 65,
+        "name": "portable_speakers"
+      },
+      {
+        "id": 66,
+        "name": "over_ear_headphones",
+        "subcategories": [
+          {
+            "id": 661,
+            "name": "over_ear_wired"
+          },
+          {
+            "id": 662,
+            "name": "over_ear_wireless"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "in_ear_headphones",
+        "subcategories": [
+          {
+            "id": 671,
+            "name": "in_ear_wired"
+          },
+          {
+            "id": 672,
+            "name": "in_ear_wireless"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "bluetooth_headsets"
+      },
+      {
+        "id": 69,
+        "name": "microphones"
+      },
+      {
+        "id": 610,
+        "name": "headphone_accessories"
+      }
     ]
+  },
+  {
+    "id": 7,
+    "name": "tv_multimedia",
+    "subcategories": [
+      {
+        "id": 71,
+        "name": "tvs_mounts",
+        "subcategories": [
+          {
+            "id": 711,
+            "name": "tvs"
+          },
+          {
+            "id": 712,
+            "name": "tv_mounts_stands"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "projectors_accessories",
+        "subcategories": [
+          {
+            "id": 721,
+            "name": "projectors"
+          },
+          {
+            "id": 722,
+            "name": "projector_screens"
+          },
+          {
+            "id": 723,
+            "name": "projector_mounts"
+          },
+          {
+            "id": 724,
+            "name": "projector_lamps"
+          },
+          {
+            "id": 725,
+            "name": "projector_remotes"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "interactive_panels"
+      },
+      {
+        "id": 74,
+        "name": "tv_tuners_boxes"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "home_appliances",
+    "subcategories": [
+      {
+        "id": 81,
+        "name": "large_home_appliances",
+        "subcategories": [
+          {
+            "id": 811,
+            "name": "refrigerators"
+          },
+          {
+            "id": 812,
+            "name": "freezers"
+          },
+          {
+            "id": 813,
+            "name": "dishwashers"
+          },
+          {
+            "id": 814,
+            "name": "cooktops"
+          },
+          {
+            "id": 815,
+            "name": "ovens"
+          },
+          {
+            "id": 816,
+            "name": "microwaves"
+          },
+          {
+            "id": 817,
+            "name": "washing_machines"
+          },
+          {
+            "id": 818,
+            "name": "water_heaters"
+          },
+          {
+            "id": 819,
+            "name": "range_hoods"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "climate_equipment",
+        "subcategories": [
+          {
+            "id": 821,
+            "name": "air_conditioners"
+          },
+          {
+            "id": 822,
+            "name": "heaters"
+          },
+          {
+            "id": 823,
+            "name": "fans"
+          },
+          {
+            "id": 824,
+            "name": "air_purifiers_humidifiers"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "small_appliances",
+        "subcategories": [
+          {
+            "id": 831,
+            "name": "electric_grills_waffle_makers"
+          },
+          {
+            "id": 832,
+            "name": "bread_makers"
+          },
+          {
+            "id": 833,
+            "name": "food_processors"
+          },
+          {
+            "id": 834,
+            "name": "mixers"
+          },
+          {
+            "id": 835,
+            "name": "toasters"
+          },
+          {
+            "id": 836,
+            "name": "multicookers"
+          },
+          {
+            "id": 837,
+            "name": "meat_grinders"
+          },
+          {
+            "id": 838,
+            "name": "juicers"
+          },
+          {
+            "id": 839,
+            "name": "kettles"
+          },
+          {
+            "id": 840,
+            "name": "blenders"
+          },
+          {
+            "id": 841,
+            "name": "vacuum_sealers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "beauty_health",
+    "subcategories": [
+      {
+        "id": 91,
+        "name": "oral_care"
+      },
+      {
+        "id": 92,
+        "name": "hair_beard_care"
+      },
+      {
+        "id": 93,
+        "name": "medical_products"
+      },
+      {
+        "id": 94,
+        "name": "cosmetic_products"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "gaming_consoles",
+    "subcategories": [
+      {
+        "id": 101,
+        "name": "game_consoles"
+      },
+      {
+        "id": 102,
+        "name": "controllers"
+      },
+      {
+        "id": 103,
+        "name": "gaming_desks"
+      },
+      {
+        "id": 104,
+        "name": "gaming_chairs"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "security_systems",
+    "subcategories": [
+      {
+        "id": 1111,
+        "name": "surveillance_cameras"
+      },
+      {
+        "id": 1112,
+        "name": "recording_devices"
+      },
+      {
+        "id": 1113,
+        "name": "camera_kits"
+      },
+      {
+        "id": 1114,
+        "name": "intercom_systems"
+      },
+      {
+        "id": 1115,
+        "name": "door_locks"
+      },
+      {
+        "id": 1116,
+        "name": "access_control_systems"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "car_electronics",
+    "subcategories": [
+      {
+        "id": 121,
+        "name": "dash_cameras"
+      },
+      {
+        "id": 122,
+        "name": "car_chargers_holders"
+      },
+      {
+        "id": 123,
+        "name": "interior_comfort"
+      },
+      {
+        "id": 124,
+        "name": "cleaning_equipment"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "automation_equipment",
+    "subcategories": [
+      {
+        "id": 131,
+        "name": "pos_terminals"
+      },
+      {
+        "id": 132,
+        "name": "barcode_scanners"
+      },
+      {
+        "id": 133,
+        "name": "receipt_printers"
+      },
+      {
+        "id": 134,
+        "name": "counting_machines"
+      },
+      {
+        "id": 135,
+        "name": "consumables"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "tools_equipment",
+    "subcategories": [
+      {
+        "id": 141,
+        "name": "power_tools"
+      },
+      {
+        "id": 142,
+        "name": "hand_tools"
+      },
+      {
+        "id": 143,
+        "name": "measuring_instruments"
+      },
+      {
+        "id": 144,
+        "name": "tool_kits"
+      },
+      {
+        "id": 145,
+        "name": "construction_consumables"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "travel_leisure"
+  },
+  {
+    "id": 16,
+    "name": "other"
   }
 ]

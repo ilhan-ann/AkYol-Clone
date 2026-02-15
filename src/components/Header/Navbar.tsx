@@ -35,7 +35,7 @@ function Navbar() {
         </div>
       </div>
       <Add />
-      <a href=""><img className="w-full mt-2 h-20" src={add} alt="add" /></a>
+      {/* <a href=""><img className="w-full mt-2 h-20" src={add} alt="add" /></a> */}
     </>
   )
 }

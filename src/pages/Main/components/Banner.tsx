@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react"
-import { banner1, banner2 } from "../../../assets/images/index"
+import { banner1, banner2, banner3 } from "../../../assets/images/index"
 import { Pagination, Autoplay, Navigation, Thumbs } from "swiper/modules"
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 import 'swiper/css'
@@ -12,8 +12,8 @@ import 'swiper/css/free-mode'
 function Banner() {
 
   return (
-    <div className="container mx-auto px-9">
-      <div className=" rounded-2xl overflow-hidden relative h-150">
+    <div className="container mx-auto">
+      <div className="overflow-hidden relative h-150">
         <Swiper
           loop={true}
           modules={[Pagination, Autoplay, Navigation, Thumbs]}
@@ -24,13 +24,15 @@ function Banner() {
           pagination={{ clickable: true }}
           autoplay={{ delay: 5000 }}
           className="
-            h-full
-          [&_.swiper-pagination-bullet]:bg-gray-400!
-            [&_.swiper-pagination-bullet]:opacity-100!
-            [&_.swiper-pagination-bullet]:w-10!
-            [&_.swiper-pagination-bullet]:rounded!
-            [&_.swiper-pagination-bullet]:h-1!
-          [&_.swiper-pagination-bullet-active]:bg-white!"
+          h-full
+          [&_.swiper-pagination]:bottom-6!
+        [&_.swiper-pagination-bullet]:bg-white!
+          [&_.swiper-pagination-bullet]:opacity-100!
+          [&_.swiper-pagination-bullet]:w-4!
+          [&_.swiper-pagination-bullet]:h-4!
+          [&_.swiper-pagination-bullet]:mx-2!
+          [&_.swiper-pagination-bullet]:rounded-full!
+        [&_.swiper-pagination-bullet-active]:bg-custom-blue!"
 
         >
           <SwiperSlide>
@@ -39,16 +41,19 @@ function Banner() {
           <SwiperSlide>
             <img className="w-full h-full" src={banner2} alt="" />
           </SwiperSlide>
+          <SwiperSlide>
+            <img className="w-full h-full" src={banner3} alt="" />
+          </SwiperSlide>
         </Swiper>
 
-        <button className="btn-next absolute top-0 left-0 h-full z-1 px-5 text-white group">
-          <span className="absolute inset-0 bg-linear-to-r from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-          <IoIosArrowBack size={50} className="relative z-1" />
+        <button className="btn-prev absolute top-1/2 -translate-y-1/2 left-6 z-10 w-14 h-14 flex items-center justify-center rounded-full bg-white text-gray-700 shadow-md">
+          <IoIosArrowBack size={28} />
         </button>
-        <button className="btn-next absolute top-0 right-0 h-full z-1 px-5 text-white group">
-          <span className="absolute inset-0 bg-linear-to-l from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-          <IoIosArrowForward size={50} className="relative z-1" />
+
+        <button className="btn-next absolute top-1/2 -translate-y-1/2 right-6 z-10 w-14 h-14 flex items-center justify-center rounded-full bg-white text-gray-700 shadow-md">
+          <IoIosArrowForward size={28} />
         </button>
+
       </div>
     </div>
   )

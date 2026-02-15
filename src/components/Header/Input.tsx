@@ -16,7 +16,7 @@ function Input(props: InputProp) {
 
   return (
     <div className='relative'>
-      <label className={'absolute  px-1 transition-all text-sm rounded ' + (focus ? "-top-3 left-3 " : "top-2 left-2 ") + (validate ? "text-black bg-white" : "text-red-500 bg-red-50")} htmlFor={props.name}>{t(props.label)}</label>
+      <label className={'absolute px-1 transition-all text-sm rounded ' + (focus ? "-top-3 left-3 " : "top-2 left-2 ") + (validate ? "text-black bg-white" : "text-red-500 bg-red-50")} htmlFor={props.name}>{t(props.label)}</label>
 
       <div className={'border rounded flex items-center transition-all ' + (validate ? "border-blue-500" : "border-red-500 bg-red-50")}>
         <label htmlFor={props.name} className='ml-3'>{props.defaultValue}</label>

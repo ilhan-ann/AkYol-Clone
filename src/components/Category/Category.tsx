@@ -1,93 +1,68 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { useTranslation } from "react-i18next"
 import categories from "../../data/category.json"
 import { Link } from "react-router-dom";
+import { BiChevronRight } from "react-icons/bi";
 
 function Category() {
-  const [open, setOpen] = useState<boolean>(false)
   const [active, setActive] = useState<any>(null)
   const { t } = useTranslation()
 
-  useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "auto"
-  }, [open])
-
   return (
     <div
-      className="w-full relative"
+      className="w-full relative shadow-lg bg-white z-110"
       onMouseLeave={() => setActive(null)}
     >
       <div className="w-full">
-        <div className="pb-3">
+        <div>
           <div className="bg-custom-blue w-full p-3 text-center text-white">
             {t("catalog")}
           </div>
 
           {categories.map((category, key) => (
-            <button
-              key={"category-" + key}
-              onMouseEnter={() => setActive(category)}
-              className={
-                "relative group flex items-center gap-5 w-full text-left py-4 px-5 " +
-                (active?.id === category.id
-                  ? "bg-gray-300"
-                  : "bg-gray-100 hover:bg-gray-200")
-              }
-            >
-              {t(category.name)}
-              <div className="absolute z-51 top-0 left-full h-100 bg-red-200 w-0 group-hover:w-100">
-                
-              </div>
-            </button>
-          ))}
-
-
-          {/* {active && (
             <div
-              className="absolute pb-3 pl-3"
-              onMouseEnter={() => setActive(active)}
+              key={"category-" + key}
+              className="relative group hover:bg-gray-200"
+              onMouseEnter={() => setActive(category)}
             >
               <Link
-                to={"category/" + active.id}
-                onClick={() => setOpen(false)}
-                className="font-semibold text-4xl bg-gray-100 hover:text-custom-blue"
+                to={`/category/${category.id}`}
+                className={
+                  "flex items-center justify-between w-full text-left hover:text-custom-blue py-4 px-5 gap-5 " +
+                  (active?.id === category.id
+                    ? "bg-gray-300"
+                    : "bg-white hover:bg-gray-200")
+                }
               >
-                {t(active.name)}
+                {t(category.name)}
+                {category.subcategories && category.subcategories.length > 0 && (
+                  <span className="text-gray-500 ">
+                    <BiChevronRight size={24} />
+                  </span>
+                )}
               </Link>
-
-              <div className="pt-4 bg-gray-100">
-                {active.subcategories.map((sub: any, index: number) => (
-                  <div key={"subcategory-" + index}>
+              {category.subcategories && category.subcategories.length > 0 && (
+                <div
+                  className={`absolute top-0 left-full bg-white shadow-lg min-w-62.5 transition-all duration-300 transform ${active?.id === category.id
+                      ? "translate-x-0 opacity-100 visible"
+                      : "-translate-x-6 opacity-0 invisible"
+                    }`}
+                >
+                  {category.subcategories.map((sub: any, index: number) => (
                     <Link
-                      onClick={() => setOpen(false)}
-                      className="block pl-2 hover:text-custom-blue text-lg font-semibold"
-                      to={"category/" + sub.id}
+                      key={"sub-" + index}
+                      to={`/category/${sub.slug}`}
+                      className="block px-5 py-4 hover:bg-gray-200 hover:text-custom-blue justify-between items-center"
                     >
                       {t(sub.name)}
                     </Link>
+                  ))}
+                </div>
+              )}
 
-                    <div className="my-2">
-                      {sub.subcategories &&
-                        sub.subcategories.map((subsub: any, index2: number) => (
-                          <Link
-                            onClick={() => setOpen(false)}
-                            key={"subsubcategory-" + index2}
-                            to={"category/" + subsub.id}
-                            className="block pl-4 hover:text-custom-blue"
-                          >
-                            {t(subsub.name)}
-                          </Link>
-                        ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>
-          )} */}
+          ))}
         </div>
-
-
-
       </div>
     </div>
   )

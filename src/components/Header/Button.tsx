@@ -1,5 +1,7 @@
+import type { ReactNode } from "react";
+
 type ButtonType = {
-  children: ReactNode;
+  children?: ReactNode;
   title?: string;
   action?: () => void;
   active?: boolean;

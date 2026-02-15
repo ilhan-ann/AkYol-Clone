@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "name": "personal_computers",
+    "products": [
+      {
+        "id": 1001,
+        "name": "Intel Core i9-13900K",
+        "definition": "16-core CPU for high-end gaming and productivity",
+        "price": 699,
+        "image": "/images/products/intel_i9_13900k.jpg",
+        "quantity": 20,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 1002,
+        "name": "AMD Ryzen 9 7950X",
+        "definition": "16-core CPU with excellent multitasking performance",
+        "price": 749,
+        "image": "/images/products/ryzen_9_7950x.jpg",
+        "quantity": 15,
+        "discount": 5,
+        "isNew": false,
+        "inStock": true
+      },
+      {
+        "id": 1003,
+        "name": "ASUS ROG Strix Z790-E",
+        "definition": "Gaming motherboard with PCIe 5.0 and WiFi 6E",
+        "price": 449,
+        "image": "/images/products/asus_z790.jpg",
+        "quantity": 8,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 1004,
+        "name": "Noctua NH-D15",
+        "definition": "High-performance air CPU cooler with dual fans",
+        "price": 99,
+        "image": "/images/products/noctua_nh-d15.jpg",
+        "quantity": 30,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "peripherals_accessories",
+    "products": [
+      {
+        "id": 2001,
+        "name": "Logitech MX Keys",
+        "definition": "Wireless keyboard with smart backlighting",
+        "price": 99,
+        "image": "/images/products/mx_keys.jpg",
+        "quantity": 25,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 2002,
+        "name": "Razer DeathAdder V3",
+        "definition": "High-precision wired gaming mouse",
+        "price": 59,
+        "image": "/images/products/deathadder_v3.jpg",
+        "quantity": 40,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 2003,
+        "name": "SteelSeries QcK Mousepad",
+        "definition": "Smooth gaming mousepad",
+        "price": 19,
+        "image": "/images/products/qck_mousepad.jpg",
+        "quantity": 60,
+        "discount": 0,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "office_equipment",
+    "products": [
+      {
+        "id": 3001,
+        "name": "HP LaserJet Pro M404dw",
+        "definition": "Fast monochrome laser printer for office use",
+        "price": 299,
+        "image": "/images/products/hp_laserjet_m404dw.jpg",
+        "quantity": 12,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 3002,
+        "name": "Canon PIXMA G7020",
+        "definition": "All-in-one inkjet printer with refillable tanks",
+        "price": 249,
+        "image": "/images/products/canon_pixma_g7020.jpg",
+        "quantity": 10,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "network_equipment",
+    "products": [
+      {
+        "id": 4001,
+        "name": "TP-Link Archer AX73",
+        "definition": "WiFi 6 router with high speed coverage",
+        "price": 179,
+        "image": "/images/products/tp-link_ax73.jpg",
+        "quantity": 18,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 4002,
+        "name": "Netgear Nighthawk RAXE500",
+        "definition": "High-performance tri-band WiFi 6E router",
+        "price": 599,
+        "image": "/images/products/nighthawk_rax.jpg",
+        "quantity": 6,
+        "discount": 10,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "smartphones_gadgets",
+    "products": [
+      {
+        "id": 5001,
+        "name": "iPhone 15",
+        "definition": "Apple flagship smartphone with A17 chip",
+        "price": 1099,
+        "image": "/images/products/iphone15.jpg",
+        "quantity": 8,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 5002,
+        "name": "Samsung Galaxy S23",
+        "definition": "Latest Android smartphone with powerful performance",
+        "price": 899,
+        "image": "/images/products/s23.jpg",
+        "quantity": 12,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "audio_equipment",
+    "products": [
+      {
+        "id": 6001,
+        "name": "Sony WH-1000XM5",
+        "definition": "Noise cancelling over-ear wireless headphones",
+        "price": 399,
+        "image": "/images/products/sony_wh1000xm5.jpg",
+        "quantity": 20,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 6002,
+        "name": "Bose SoundLink Revolve",
+        "definition": "Portable Bluetooth speaker with 360° sound",
+        "price": 199,
+        "image": "/images/products/bose_soundlink.jpg",
+        "quantity": 15,
+        "discount": 0,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "tv_multimedia",
+    "products": [
+      {
+        "id": 7001,
+        "name": "LG OLED C2",
+        "definition": "55-inch 4K OLED TV",
+        "price": 1499,
+        "image": "/images/products/lg_oled_c2.jpg",
+        "quantity": 10,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 7002,
+        "name": "Epson Home Cinema 3800",
+        "definition": "4K PRO-UHD projector",
+        "price": 1199,
+        "image": "/images/products/epson_3800.jpg",
+        "quantity": 5,
+        "discount": 0,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "home_appliances",
+    "products": [
+      {
+        "id": 8001,
+        "name": "Samsung RF28R7201SR",
+        "definition": "28 cu. ft. French Door Refrigerator",
+        "price": 2199,
+        "image": "/images/products/samsung_fridge.jpg",
+        "quantity": 3,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 8002,
+        "name": "Dyson V15 Detect",
+        "definition": "Cordless vacuum cleaner with laser detection",
+        "price": 699,
+        "image": "/images/products/dyson_v15.jpg",
+        "quantity": 7,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "beauty_health",
+    "products": [
+      {
+        "id": 9001,
+        "name": "Oral-B iO 10",
+        "definition": "Electric toothbrush with smart features",
+        "price": 299,
+        "image": "/images/products/oralb_io10.jpg",
+        "quantity": 15,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 9002,
+        "name": "Philips Hair Dryer BHD996",
+        "definition": "Professional hair dryer with ThermoProtect",
+        "price": 199,
+        "image": "/images/products/philips_hairdryer.jpg",
+        "quantity": 12,
+        "discount": 0,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "gaming_consoles",
+    "products": [
+      {
+        "id": 10001,
+        "name": "PlayStation 5",
+        "definition": "Next-gen gaming console from Sony",
+        "price": 499,
+        "image": "/images/products/ps5.jpg",
+        "quantity": 10,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 10002,
+        "name": "Xbox Series X",
+        "definition": "Powerful next-gen console from Microsoft",
+        "price": 499,
+        "image": "/images/products/xbox_series_x.jpg",
+        "quantity": 8,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "security_systems",
+    "products": [
+      {
+        "id": 11001,
+        "name": "Arlo Pro 4",
+        "definition": "Wireless security camera system",
+        "price": 499,
+        "image": "/images/products/arlo_pro4.jpg",
+        "quantity": 12,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 11002,
+        "name": "Ring Video Doorbell 4",
+        "definition": "Smart video doorbell with motion detection",
+        "price": 199,
+        "image": "/images/products/ring_doorbell.jpg",
+        "quantity": 20,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "car_electronics",
+    "products": [
+      {
+        "id": 12001,
+        "name": "Garmin Dash Cam 66W",
+        "definition": "Wide-angle dash camera with GPS",
+        "price": 249,
+        "image": "/images/products/garmin_dashcam.jpg",
+        "quantity": 15,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 12002,
+        "name": "Anker Car Charger 45W",
+        "definition": "Fast charging car charger",
+        "price": 29,
+        "image": "/images/products/anker_car_charger.jpg",
+        "quantity": 40,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "automation_equipment",
+    "products": [
+      {
+        "id": 13001,
+        "name": "Square POS Terminal",
+        "definition": "All-in-one point of sale system",
+        "price": 399,
+        "image": "/images/products/square_pos.jpg",
+        "quantity": 10,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 13002,
+        "name": "Honeywell Barcode Scanner",
+        "definition": "Reliable barcode scanning device",
+        "price": 149,
+        "image": "/images/products/honeywell_scanner.jpg",
+        "quantity": 18,
+        "discount": 0,
+        "isNew": false,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "tools_equipment",
+    "products": [
+      {
+        "id": 14001,
+        "name": "DeWalt Cordless Drill",
+        "definition": "18V cordless drill kit with battery",
+        "price": 129,
+        "image": "/images/products/dewalt_drill.jpg",
+        "quantity": 25,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 14002,
+        "name": "Bosch Hammer Drill",
+        "definition": "Powerful drill for construction work",
+        "price": 159,
+        "image": "/images/products/bosch_hammer_drill.jpg",
+        "quantity": 15,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "travel_leisure",
+    "products": [
+      {
+        "id": 15001,
+        "name": "Samsonite Carry-On",
+        "definition": "Lightweight and durable travel suitcase",
+        "price": 199,
+        "image": "/images/products/samsonite_carryon.jpg",
+        "quantity": 30,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 15002,
+        "name": "GoPro HERO12",
+        "definition": "Action camera for adventure sports",
+        "price": 499,
+        "image": "/images/products/gopro_hero12.jpg",
+        "quantity": 12,
+        "discount": 10,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "other",
+    "products": [
+      {
+        "id": 16001,
+        "name": "Gift Card $50",
+        "definition": "Universal store gift card",
+        "price": 50,
+        "image": "/images/products/gift_card_50.jpg",
+        "quantity": 100,
+        "discount": 0,
+        "isNew": true,
+        "inStock": true
+      },
+      {
+        "id": 16002,
+        "name": "Portable Power Bank 10000mAh",
+        "definition": "Compact charger for smartphones and tablets",
+        "price": 29,
+        "image": "/images/products/powerbank_10000.jpg",
+        "quantity": 60,
+        "discount": 5,
+        "isNew": true,
+        "inStock": true
+      }
+    ]
+  }
+]

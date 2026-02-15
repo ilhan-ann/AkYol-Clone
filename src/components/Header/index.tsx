@@ -1,12 +1,11 @@
 import Navbar from "./Navbar"
-import Top from "./Top"
+import HeaderTop from "./HeaderTop"
 
 function index() {
   return (
-    <div>
-      <Top />
+    <div className="bg-white">
+      <HeaderTop />
       <Navbar />
-      
     </div>
   )
 }

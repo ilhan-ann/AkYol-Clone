@@ -6,30 +6,67 @@ function Popup({ children, open, setOpen, title, active, setActive, sendData }: 
 
   return (
     <>
-      <div onClick={() => setOpen(false)} className={'fixed top-0 left-0 h-screen bg-black/40 w-full backdrop-blur-[2px] transition-all ' + (open ? "opacity-100 visible" : "opacity-0 invisible")}></div>
-      <div className={'text-black w-100 -translate-1/2 bg-white rounded py-3 px-5 fixed top-1/2 left-1/2 transition-all ' + (open ? "scale-100" : "scale-0")}>
-        <div className='font-semibold text-2xl'>{title}</div>
-        <button onClick={() => setOpen(false)} className='hover:opacity-70 absolute top-1 right-1 bg-red-600 rounded-full text-white p-0.5'>
+      <div
+        onClick={() => setOpen(false)}
+        className={
+          "fixed inset-0 bg-black/40 backdrop-blur-sm transition-all duration-300 " +
+          (open ? "opacity-100 visible" : "opacity-0 invisible")
+        }>
+        </div>
+      <div
+        className={
+          "fixed top-1/2 left-1/2 w-105 max-w-[95%] -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl p-8 transition-all duration-300 " +
+          (open ? "scale-100 opacity-100" : "scale-90 opacity-0")
+        }>
+        <button
+          onClick={() => setOpen(false)}
+          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full border border-gray-300 text-gray-500 hover:bg-gray-100 transition">
           <BiX size={18} />
         </button>
-
-        <div className='flex justify-end'>
-          <button onClick={() => setActive("phone")} className={'bg-gray-200 py-1 px-3 border border-gray-300 rounded-l shadow-inner  ' + (active == "phone" && "text-blue-500 bg-white")}>Telefon</button>
-          <button onClick={() => setActive("email")} className={'bg-gray-200 py-1 px-3 border border-gray-300 rounded-r shadow-inner  ' + (active == "email" && "text-blue-500 bg-white")}>Email</button>
+        <h2 className="text-3xl font-semibold mb-6">{title}</h2>
+        <div className="flex justify-end mb-6">
+          <button
+            onClick={() => setActive("phone")}
+            className={
+              "px-4 py-1.5 text-sm border rounded-l-full transition " +
+              (active === "phone"
+                ? "bg-white text-blue-600 border-gray-300"
+                : "bg-gray-100 text-gray-500 border-gray-300")
+            }>
+            Telefon
+          </button>
+          <button
+            onClick={() => setActive("email")}
+            className={
+              "px-4 py-1.5 text-sm border rounded-r-full transition " +
+              (active === "email"
+                ? "bg-white text-blue-600 border-gray-300"
+                : "bg-gray-100 text-gray-500 border-gray-300")
+            }>
+            Email
+          </button>
         </div>
-
-        <div>{children}</div>
-
-        <button onClick={sendData} className='bg-custom-green text-white font-bold w-full hover:opacity-80 py-2 rounded'>{title}</button>
-
-        <div className='relative flex justify-center my-3'>
-          <div className='absolute top-3.5 border-b border-gray-300 w-full'></div>
-          <div className='z-10 bg-white px-2'>ýa-da</div>
+        <div className="space-y-4">{children}</div>
+        <button
+          onClick={sendData}
+          className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-full transition">
+          {title}
+        </button>
+        <div className="relative flex items-center justify-center my-6">
+          <div className="absolute w-full border-t border-gray-200"></div>
+          <span className="relative bg-white px-3 text-sm text-gray-400">
+            ýa-da
+          </span>
         </div>
-
-        <div className='flex items-center justify-center gap-3'>
-          <a className='border border-gray-500 rounded-xl h-10 w-10 flex items-center justify-center' href=""><img src={google} alt="" /></a>
-          <a className='border border-gray-500 rounded-xl h-10 w-10 flex items-center justify-center' href=""><img src={apple} alt="" /></a>
+        <div className="flex justify-center gap-4">
+          <a className="w-12 h-12 border border-gray-300 rounded-xl flex items-center justify-center hover:bg-gray-50 transition"
+            href="" >
+            <img src={google} alt="google" className="w-5 h-5" />
+          </a>
+          <a className="w-12 h-12 border border-gray-300 rounded-xl flex items-center justify-center hover:bg-gray-50 transition"
+            href="">
+            <img src={apple} alt="apple" className="w-5 h-5" />
+          </a>
         </div>
       </div>
     </>

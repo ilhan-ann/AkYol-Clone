@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import Button from './Button'
 import { useTranslation } from 'react-i18next'
 import Popup from './Popup'
 import Input from './Input'
-import { GoPersonAdd } from 'react-icons/go'
+import LogButton from './LogButton'
 
 function Register() {
   const [open, setOpen] = useState(false)
@@ -28,10 +27,7 @@ function Register() {
 
   return (
     <div>
-      <Button title={t('signUp')} action={() => setOpen(true)}>
-        <GoPersonAdd size={20} className='text-custom-blue font-bold mr-3' />
-      </Button>
-
+      <LogButton title={t('signUp')} action={() => setOpen(true)}/>
       <Popup sendData={sendData} open={open} setOpen={setOpen} title={t('signUp')} active={active} setActive={setActive}>
         {
           active === "phone" ?
