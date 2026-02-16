@@ -3,19 +3,25 @@ import Header from "./components/Header"
 import Main from "./pages/Main"
 import GoToTop from "./components/GoToTop"
 import Footer from "./components/Footer"
+import NotFound from "./pages/NotFound"
+import Search from "./components/Header/Search"
+import Category from "./pages/Category"
 
 
 function App() {
   return (
     <>
       <div className="app-bg">
-      <Header />
+        <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+        <Route path="/category/:id" element={<Category />}/>
+          <Route path="/search/:keyword" element={<Search />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <GoToTop />
       </div>
-        <Footer />
+      <Footer />
     </>
   )
 }

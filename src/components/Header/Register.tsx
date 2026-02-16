@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Popup from './Popup'
 import Input from './Input'
 import LogButton from './LogButton'
+import { useRegister } from '../../queries/user'
 
 function Register() {
   const [open, setOpen] = useState(false)
@@ -10,20 +11,37 @@ function Register() {
   const { t } = useTranslation()
   const [data, setData] = useState({
     phone: "",
-    fullname:"",
+    fullname: "",
     email: "",
     password: "",
-    passwordConfirm:"",
+    passwordConfirm: "",
   })
+
+  const { mutate, isSuccess } = useRegister()
 
   const handleData = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value, name } = e.target
     setData({ ...data, [name]: value })
   }
 
-  const sendData = ()=>{
-    console.table(data)
+  const sendData = () => {
+    if (data.password !== data.passwordConfirm) {
+      alert("Password bilen confirm password gabat gelenok")
+      return
+    }
+    mutate(data)
   }
+
+  useEffect(() => {
+    setOpen(false)
+    setData({
+      phone: "",
+      fullname: "",
+      email: "",
+      password: "",
+      passwordConfirm: "",
+    })
+  }, [isSuccess])
 
   return (
     <div>

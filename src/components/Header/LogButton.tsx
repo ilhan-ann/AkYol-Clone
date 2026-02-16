@@ -7,7 +7,8 @@ type ButtonType = {
 function LogButton({ title, action }: ButtonType) {
   return (
     <div>
-      <button onClick={action} className="p-4">
+      <button onClick={action}>
+        
         <span>{title}</span>
       </button>
     </div>

@@ -1,0 +1,432 @@
+{
+  "brandsByKeyword": [
+    {
+      "name": "Samsung",
+      "id": "BR-1001",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    },
+    {
+      "name": "Apple",
+      "id": "BR-1002",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    },
+    {
+      "name": "Generic Gaming",
+      "id": "BR-1003",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e"
+    },
+    {
+      "name": "Audio-Tech",
+      "id": "BR-1004",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    },
+    {
+      "name": "Urban Wear",
+      "id": "BR-2001",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    },
+    {
+      "name": "Elegance Soft",
+      "id": "BR-2002",
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+    },
+    {
+      "name": "Junior Denim",
+      "id": "BR-2003",
+      "image": "https://images.unsplash.com/photo-1519457431-758c442759e4"
+    },
+    {
+      "name": "Oak & Iron",
+      "id": "BR-3001",
+      "image": "https://images.unsplash.com/photo-1530018607912-eff2df114f11"
+    },
+    {
+      "name": "ChefPro",
+      "id": "BR-3002",
+      "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546"
+    },
+    {
+      "name": "DevPress",
+      "id": "BR-4001",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45"
+    },
+    {
+      "name": "Scholar Hub",
+      "id": "BR-4003",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6"
+    }
+  ],
+  "brands": [
+    {
+      "category": "Electronics",
+      "categoryId": 1,
+      "brands": [
+        {
+          "name": "Samsung",
+          "id": "BR-1001",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+        },
+        {
+          "name": "Apple",
+          "id": "BR-1002",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+        },
+        {
+          "name": "Generic Gaming",
+          "id": "BR-1003",
+          "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e"
+        },
+        {
+          "name": "Audio-Tech",
+          "id": "BR-1004",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        }
+      ],
+      "id": "acac"
+    },
+    {
+      "category": "Clothing",
+      "categoryId": 2,
+      "brands": [
+        {
+          "name": "Urban Wear",
+          "id": "BR-2001",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+        },
+        {
+          "name": "Elegance Soft",
+          "id": "BR-2002",
+          "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+        },
+        {
+          "name": "Junior Denim",
+          "id": "BR-2003",
+          "image": "https://images.unsplash.com/photo-1519457431-758c442759e4"
+        }
+      ],
+      "id": "0806"
+    },
+    {
+      "category": "Home & Kitchen",
+      "categoryId": 3,
+      "brands": [
+        {
+          "name": "Oak & Iron",
+          "id": "BR-3001",
+          "image": "https://images.unsplash.com/photo-1530018607912-eff2df114f11"
+        },
+        {
+          "name": "ChefPro",
+          "id": "BR-3002",
+          "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546"
+        }
+      ],
+      "id": "613c"
+    },
+    {
+      "category": "Books",
+      "categoryId": 4,
+      "brands": [
+        {
+          "name": "DevPress",
+          "id": "BR-4001",
+          "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45"
+        },
+        {
+          "name": "Scholar Hub",
+          "id": "BR-4003",
+          "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6"
+        }
+      ],
+      "id": "ef19"
+    }
+  ],
+  "products": [
+    {
+      "id": "1001",
+      "name": "Samsung Galaxy S23",
+      "definition": "Latest Android smartphone with powerful performance",
+      "price": 899,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1091",
+      "name": "Samsung Galaxy S23",
+      "definition": "Latest Android smartphone with powerful performance",
+      "price": 1000,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1005",
+      "name": "Samsung Galaxy A52",
+      "definition": "Tast Latest Android smartphone with powerful performance",
+      "price": 700,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1006",
+      "name": "Huawei mate xt 3",
+      "definition": "Latest Android smartphone with powerful performance",
+      "price": 1000,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1007",
+      "name": "Redmagic 11 pro+",
+      "definition": "Tast Latest Android smartphone with powerful performance",
+      "price": 20000,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1008",
+      "name": "One plus 15",
+      "definition": "Tast Latest Android smartphone with powerful performance",
+      "price": 200,
+      "image": "/images/products/s23.jpg",
+      "quantity": 12,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 111,
+      "categoryName": "Android Phones"
+    },
+    {
+      "id": "1002",
+      "name": "iPhone 15",
+      "definition": "Apple flagship smartphone with A17 chip",
+      "price": 1099,
+      "image": "/images/products/iphone15.jpg",
+      "quantity": 8,
+      "discount": 0,
+      "isNew": true,
+      "categoryId": 112,
+      "categoryName": "iPhones"
+    },
+    {
+      "id": "1003",
+      "name": "Gaming Laptop",
+      "definition": "High performance laptop for gaming",
+      "price": 1599,
+      "image": "/images/products/gaming-laptop.jpg",
+      "quantity": 5,
+      "discount": 15,
+      "isNew": false,
+      "categoryId": 121,
+      "categoryName": "Gaming Laptops"
+    },
+    {
+      "id": "1004",
+      "name": "Wireless Headphones",
+      "definition": "Noise cancelling wireless headphones",
+      "price": 199,
+      "image": "/images/products/headphones.jpg",
+      "quantity": 20,
+      "discount": 5,
+      "isNew": false,
+      "categoryId": 13,
+      "categoryName": "Accessories"
+    },
+    {
+      "id": "2001",
+      "name": "Men T-Shirt",
+      "definition": "Cotton T-shirt for everyday wear",
+      "price": 25,
+      "image": "/images/products/tshirt.jpg",
+      "quantity": 50,
+      "discount": 20,
+      "isNew": true,
+      "categoryId": 211,
+      "categoryName": "T-Shirts"
+    },
+    {
+      "id": "2002",
+      "name": "Women Dress",
+      "definition": "Elegant summer dress",
+      "price": 79,
+      "image": "/images/products/dress.jpg",
+      "quantity": 14,
+      "discount": 10,
+      "isNew": false,
+      "categoryId": 221,
+      "categoryName": "Dresses"
+    },
+    {
+      "id": "2003",
+      "name": "Kids Jeans",
+      "definition": "Comfortable jeans for kids",
+      "price": 35,
+      "image": "/images/products/kids-jeans.jpg",
+      "quantity": 30,
+      "discount": 0,
+      "isNew": true,
+      "categoryId": 23,
+      "categoryName": "Kids"
+    },
+    {
+      "id": "2004",
+      "name": "Men Jeans",
+      "definition": "Slim fit denim jeans",
+      "price": 60,
+      "image": "/images/products/men-jeans.jpg",
+      "quantity": 22,
+      "discount": 15,
+      "isNew": false,
+      "categoryId": 212,
+      "categoryName": "Jeans"
+    },
+    {
+      "id": "3001",
+      "name": "Wooden Table",
+      "definition": "Solid wood dining table",
+      "price": 499,
+      "image": "/images/products/table.jpg",
+      "quantity": 6,
+      "discount": 10,
+      "isNew": false,
+      "categoryId": 31,
+      "categoryName": "Furniture"
+    },
+    {
+      "id": "3002",
+      "name": "Kitchen Knife Set",
+      "definition": "Professional stainless steel knives",
+      "price": 129,
+      "image": "/images/products/knives.jpg",
+      "quantity": 18,
+      "discount": 20,
+      "isNew": true,
+      "categoryId": 322,
+      "categoryName": "Knives"
+    },
+    {
+      "id": "3003",
+      "name": "Non-stick Pan",
+      "definition": "Durable non-stick cooking pan",
+      "price": 59,
+      "image": "/images/products/pan.jpg",
+      "quantity": 25,
+      "discount": 0,
+      "isNew": false,
+      "categoryId": 321,
+      "categoryName": "Pans"
+    },
+    {
+      "id": "3004",
+      "name": "Chair",
+      "definition": "Comfortable wooden chair",
+      "price": 89,
+      "image": "/images/products/chair.jpg",
+      "quantity": 10,
+      "discount": 5,
+      "isNew": true,
+      "categoryId": 31,
+      "categoryName": "Furniture"
+    },
+    {
+      "id": "4001",
+      "name": "JavaScript Guide",
+      "definition": "Complete guide to modern JavaScript",
+      "price": 39,
+      "image": "/images/products/js-book.jpg",
+      "quantity": 40,
+      "discount": 10,
+      "isNew": true,
+      "categoryId": 411,
+      "categoryName": "JavaScript"
+    },
+    {
+      "id": "4002",
+      "name": "Python for Beginners",
+      "definition": "Learn Python from scratch",
+      "price": 35,
+      "image": "/images/products/python-book.jpg",
+      "quantity": 35,
+      "discount": 0,
+      "isNew": false,
+      "categoryId": 412,
+      "categoryName": "Python"
+    },
+    {
+      "id": "4003",
+      "name": "World History",
+      "definition": "Overview of world history",
+      "price": 45,
+      "image": "/images/products/history.jpg",
+      "quantity": 20,
+      "discount": 15,
+      "isNew": false,
+      "categoryId": 42,
+      "categoryName": "History"
+    },
+    {
+      "id": "4004",
+      "name": "Clean Code",
+      "definition": "Best practices for writing clean code",
+      "price": 49,
+      "image": "/images/products/clean-code.jpg",
+      "quantity": 18,
+      "discount": 5,
+      "isNew": true,
+      "categoryId": 41,
+      "categoryName": "Programming"
+    }
+  ],
+  "users": [
+    {
+      "id": "715d",
+      "phone": "64813333",
+      "fullname": "Kyyas",
+      "email": "",
+      "password": "123123",
+      "passwordConfirm": "123123"
+    },
+    {
+      "id": "1e88",
+      "phone": "64822497",
+      "fullname": "Aymuhammet",
+      "email": "",
+      "password": "123123",
+      "passwordConfirm": "123123"
+    },
+    {
+      "id": "ed7e",
+      "phone": "",
+      "fullname": "Example",
+      "email": "Example@gmail.com",
+      "password": "mmmmmmmm",
+      "passwordConfirm": "mmmmmmmm"
+    },
+    {
+      "id": "8f83",
+      "phone": "61738885",
+      "fullname": "ilhan",
+      "email": "",
+      "password": "121212",
+      "passwordConfirm": "121212"
+    }
+  ]
+}

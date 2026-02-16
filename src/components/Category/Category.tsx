@@ -15,10 +15,6 @@ function Category() {
     >
       <div className="w-full">
         <div>
-          <div className="bg-custom-blue w-full p-3 text-center text-white">
-            {t("catalog")}
-          </div>
-
           {categories.map((category, key) => (
             <div
               key={"category-" + key}
