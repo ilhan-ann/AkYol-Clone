@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
-import categories from "../../data/category.json"
+import categories from "../data/category.json"
 import { Link } from "react-router-dom";
 import { BiChevronRight } from "react-icons/bi";
 
@@ -19,17 +19,14 @@ function Category() {
             <div
               key={"category-" + key}
               className="relative group hover:bg-gray-200"
-              onMouseEnter={() => setActive(category)}
-            >
+              onMouseEnter={() => setActive(category)}>
               <Link
                 to={`/category/${category.id}`}
-                className={
-                  "flex items-center justify-between w-full text-left hover:text-custom-blue py-4 px-5 gap-5 " +
+                className={"flex items-center justify-between w-full text-left hover:text-custom-blue py-4 px-5 gap-5 " +
                   (active?.id === category.id
                     ? "bg-gray-300"
                     : "bg-white hover:bg-gray-200")
-                }
-              >
+                }>
                 {t(category.name)}
                 {category.subcategories && category.subcategories.length > 0 && (
                   <span className="text-gray-500 ">
@@ -55,7 +52,6 @@ function Category() {
                   ))}
                 </div>
               )}
-
             </div>
           ))}
         </div>

@@ -1,5 +1,5 @@
 import ProductCard from "../../components/ProductCard";
-import Category from "../../components/Category/Category";
+import Category from "../../components/Category";
 import Banner from "./components/Banner";
 import BottomBanner from "./components/BottomBanner";
 import categoryProducts from "../../data/categoryWithProduct.json";

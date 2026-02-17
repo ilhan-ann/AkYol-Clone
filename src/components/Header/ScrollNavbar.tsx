@@ -5,11 +5,11 @@ import Cart from "./Cart";
 import { BiGitCompare, BiHeart, BiLogIn } from "react-icons/bi";
 import Login from "./Login";
 import Register from "./Register";
-import Category from "../Category/Category";
+import Category from "../Category";
 import { useTranslation } from "react-i18next";
-import { BsChevronBarDown, BsPersonAdd } from "react-icons/bs";
+import { BsPersonAdd } from "react-icons/bs";
 import { CgChevronDown } from "react-icons/cg";
-import { CiBurger, CiMenuBurger } from "react-icons/ci";
+import { CiMenuBurger } from "react-icons/ci";
 
 function ScrollNavbar() {
     const [showCategory, setShowCategory] = useState(false);
@@ -30,10 +30,7 @@ function ScrollNavbar() {
     }, []);
 
     return (
-        <div
-            className={`fixed top-0 left-0 w-full z-200 bg-white shadow-lg ${visible ? "translate-y-0" : "-translate-y-full"
-                }`}
-        >
+        <div className={`fixed top-0 left-0 w-full z-200 bg-white shadow-lg ${visible ? "translate-y-0" : "-translate-y-full"}`}>
             <div className="container mx-auto px-12 py-3">
                 <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-12 md:col-span-3">
