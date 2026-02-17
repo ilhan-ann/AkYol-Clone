@@ -12,7 +12,8 @@
         "quantity": 20,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Intel"
       },
       {
         "id": 1002,
@@ -23,7 +24,8 @@
         "quantity": 15,
         "discount": 5,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "AMD"
       },
       {
         "id": 1003,
@@ -34,7 +36,8 @@
         "quantity": 8,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "ASUS"
       },
       {
         "id": 1004,
@@ -45,7 +48,8 @@
         "quantity": 30,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Noctua"
       }
     ]
   },
@@ -62,7 +66,8 @@
         "quantity": 25,
         "discount": 5,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Logitech"
       },
       {
         "id": 2002,
@@ -73,7 +78,8 @@
         "quantity": 40,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Razer"
       },
       {
         "id": 2003,
@@ -84,7 +90,8 @@
         "quantity": 60,
         "discount": 0,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "SteelSeries"
       }
     ]
   },
@@ -101,7 +108,8 @@
         "quantity": 12,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "HP"
       },
       {
         "id": 3002,
@@ -112,7 +120,8 @@
         "quantity": 10,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Canon"
       }
     ]
   },
@@ -129,7 +138,8 @@
         "quantity": 18,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "TP-Link"
       },
       {
         "id": 4002,
@@ -140,7 +150,8 @@
         "quantity": 6,
         "discount": 10,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "Netgear"
       }
     ]
   },
@@ -157,7 +168,8 @@
         "quantity": 8,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Apple"
       },
       {
         "id": 5002,
@@ -168,7 +180,8 @@
         "quantity": 12,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Samsung"
       }
     ]
   },
@@ -185,7 +198,8 @@
         "quantity": 20,
         "discount": 5,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Sony"
       },
       {
         "id": 6002,
@@ -196,7 +210,8 @@
         "quantity": 15,
         "discount": 0,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "Bose"
       }
     ]
   },
@@ -213,7 +228,8 @@
         "quantity": 10,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "LG"
       },
       {
         "id": 7002,
@@ -224,7 +240,8 @@
         "quantity": 5,
         "discount": 0,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "Epson"
       }
     ]
   },
@@ -241,7 +258,8 @@
         "quantity": 3,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Samsung"
       },
       {
         "id": 8002,
@@ -252,7 +270,8 @@
         "quantity": 7,
         "discount": 5,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Dyson"
       }
     ]
   },
@@ -269,7 +288,8 @@
         "quantity": 15,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Oral-B"
       },
       {
         "id": 9002,
@@ -280,7 +300,8 @@
         "quantity": 12,
         "discount": 0,
         "isNew": false,
-        "inStock": true
+        "inStock": true,
+        "brand": "Philips"
       }
     ]
   },
@@ -297,7 +318,8 @@
         "quantity": 10,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Sony"
       },
       {
         "id": 10002,
@@ -308,7 +330,8 @@
         "quantity": 8,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Microsoft"
       }
     ]
   },
@@ -325,7 +348,8 @@
         "quantity": 12,
         "discount": 10,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Arlo"
       },
       {
         "id": 11002,
@@ -336,7 +360,8 @@
         "quantity": 20,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Ring"
       }
     ]
   },
@@ -353,7 +378,8 @@
         "quantity": 15,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Garmin"
       },
       {
         "id": 12002,
@@ -364,96 +390,13 @@
         "quantity": 40,
         "discount": 5,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Anker"
       }
     ]
   },
   {
     "id": 13,
-    "name": "automation_equipment",
-    "products": [
-      {
-        "id": 13001,
-        "name": "Square POS Terminal",
-        "definition": "All-in-one point of sale system",
-        "price": 399,
-        "image": "/images/products/square_pos.jpg",
-        "quantity": 10,
-        "discount": 0,
-        "isNew": true,
-        "inStock": true
-      },
-      {
-        "id": 13002,
-        "name": "Honeywell Barcode Scanner",
-        "definition": "Reliable barcode scanning device",
-        "price": 149,
-        "image": "/images/products/honeywell_scanner.jpg",
-        "quantity": 18,
-        "discount": 0,
-        "isNew": false,
-        "inStock": true
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "tools_equipment",
-    "products": [
-      {
-        "id": 14001,
-        "name": "DeWalt Cordless Drill",
-        "definition": "18V cordless drill kit with battery",
-        "price": 129,
-        "image": "/images/products/dewalt_drill.jpg",
-        "quantity": 25,
-        "discount": 0,
-        "isNew": true,
-        "inStock": true
-      },
-      {
-        "id": 14002,
-        "name": "Bosch Hammer Drill",
-        "definition": "Powerful drill for construction work",
-        "price": 159,
-        "image": "/images/products/bosch_hammer_drill.jpg",
-        "quantity": 15,
-        "discount": 5,
-        "isNew": true,
-        "inStock": true
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "travel_leisure",
-    "products": [
-      {
-        "id": 15001,
-        "name": "Samsonite Carry-On",
-        "definition": "Lightweight and durable travel suitcase",
-        "price": 199,
-        "image": "/images/products/samsonite_carryon.jpg",
-        "quantity": 30,
-        "discount": 0,
-        "isNew": true,
-        "inStock": true
-      },
-      {
-        "id": 15002,
-        "name": "GoPro HERO12",
-        "definition": "Action camera for adventure sports",
-        "price": 499,
-        "image": "/images/products/gopro_hero12.jpg",
-        "quantity": 12,
-        "discount": 10,
-        "isNew": true,
-        "inStock": true
-      }
-    ]
-  },
-  {
-    "id": 16,
     "name": "other",
     "products": [
       {
@@ -465,7 +408,8 @@
         "quantity": 100,
         "discount": 0,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "DevPress"
       },
       {
         "id": 16002,
@@ -476,7 +420,8 @@
         "quantity": 60,
         "discount": 5,
         "isNew": true,
-        "inStock": true
+        "inStock": true,
+        "brand": "Scholar Hub"
       }
     ]
   }

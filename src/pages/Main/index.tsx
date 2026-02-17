@@ -1,10 +1,11 @@
 import ProductCard from "../../components/ProductCard";
 import Category from "../../components/Category";
 import Banner from "./components/Banner";
+import Brands from "./components/Brands";
 import BottomBanner from "./components/BottomBanner";
 import categoryProducts from "../../data/categoryWithProduct.json";
 import { useTranslation } from "react-i18next";
-import { Acer_nitro, Xiaomi_teapot, Yesido_charger, Yesido_speaker } from "../../assets/images";
+import { Acer_nitro, airblower, Xiaomi_teapot, Yesido_charger, Yesido_speaker } from "../../assets/images";
 import SideBarServices from "./components/SideBarServices";
 
 const shuffleArray = <T,>(array: T[]): T[] =>
@@ -33,7 +34,11 @@ function Main() {
           </div>
           <SideBarServices />
           <div className="my-8">
-            <img src={Yesido_speaker} alt="Xiaomi_teapot" />
+            <img src={Yesido_speaker} alt="Yesido_speaker" />
+          </div>
+          <Brands />
+          <div className="my-8">
+            <img src={airblower} alt="airblower" />
           </div>
         </div>
         <div className="col-span-12 md:col-span-9">
