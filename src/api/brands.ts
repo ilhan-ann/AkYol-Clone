@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 export type brandType = {
   id:string;
   image:string;

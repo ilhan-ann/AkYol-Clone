@@ -4,9 +4,10 @@ import Main from "./pages/Main"
 import GoToTop from "./components/GoToTop"
 import Footer from "./components/Footer"
 import NotFound from "./pages/NotFound"
-import Search from "./components/Header/Search"
+import Search from "./pages/Search"
 import Category from "./pages/Category"
 import { Toaster } from "react-hot-toast"
+import Profile from "./pages/Profile"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/category/:id" element={<Category />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/search/:keyword" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

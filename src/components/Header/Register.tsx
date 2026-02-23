@@ -43,6 +43,7 @@ function Register() {
     })
   }, [isSuccess])
 
+
   return (
     <div>
       <LogButton title={t('signUp')} action={() => setOpen(true)}/>

@@ -10,14 +10,16 @@ function Search() {
 
 
     return (
-        <div className="flex items-center w-100 bg-gray-200 rounded-3xl  pr-1.5">
+        <div className="flex items-center w-100 bg-gray-200 rounded-3xl pr-1.5">
             <input
                 onChange={(e) => setKeyword(e.target.value)}
-                onKeyDown={(e) => e.key == 'Enter' && navigate("search?keyword=" + keyword)}
-                className="w-full py-2 px-3 outline-none"
+                 onKeyDown={(e) => e.key == 'Enter' && navigate("search/"+keyword)}
+                className="w-full py-2 px-3 outline-none bg-transparent"
                 type="text"
                 placeholder={t("search")} />
-            <div className="bg-custom-blue p-1 rounded-full text-white">
+            <div
+                
+                className="bg-custom-blue p-1 rounded-full text-white cursor-pointer">
                 <CiSearch className="p-1" size={24} />
             </div>
         </div>

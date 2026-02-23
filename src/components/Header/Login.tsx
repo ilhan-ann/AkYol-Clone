@@ -12,20 +12,20 @@ function Login() {
   const [active, setActive] = useState<"phone" | "email">("phone")
   const { t } = useTranslation()
   const [data, setData] = useState({
-    phone: "+99",
+    phone: "",
     email: "",
     password: "",
   })
   const [dataForget, setDataForget] = useState("")
   const { mutate, isSuccess } = useLogin()
-  const { token,user,setUser, setToken } = useUserStore(state => state)
-  console.log(user,token)
+  const { token, user, setUser, setToken } = useUserStore(state => state)
   const handleData = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value, name } = e.target
     setData({ ...data, [name]: value })
   }
 
   const sendData = () => {
+    console.log(data)
     mutate(data)
   }
 
@@ -49,7 +49,7 @@ function Login() {
     <div>
       <LogButton
         title={t("login")}
-        action={() => setOpenLogin(true)}/>
+        action={() => setOpenLogin(true)} />
       <Popup
         sendData={sendData}
         open={openLogin}
@@ -62,9 +62,10 @@ function Login() {
           {active === "phone" ? (
             <div className="my-5">
               <Input
-              regex={/^(6[0-5]|71)\d{6}$/}
+                enterFunc={sendData}
+                regex={/^(6[0-5]|71)\d{6}$/}
                 name="phone"
-                label="Phone"
+                label="phone"
                 type="number"
                 defaultValue="+993"
                 onChange={handleData}
@@ -74,8 +75,9 @@ function Login() {
           ) : (
             <div className="my-5">
               <Input
+                enterFunc={sendData}
                 name="email"
-                label="Email"
+                label="email"
                 type="email"
                 onChange={handleData}
                 value={data.email}
@@ -85,8 +87,9 @@ function Login() {
 
           <div className="mb-3">
             <Input
+              enterFunc={sendData}
               name="password"
-              label="Password"
+              label="password"
               type="password"
               onChange={handleData}
               value={data.password}
@@ -124,7 +127,7 @@ function Login() {
             <div className="my-5">
               <Input
                 name="phone"
-                label="Phone"
+                label="phone"
                 type="number"
                 defaultValue="+993"
                 onChange={(e) => setDataForget(e.target.value)}
@@ -135,7 +138,7 @@ function Login() {
             <div className="my-5">
               <Input
                 name="email"
-                label="Email"
+                label="email"
                 type="email"
                 onChange={(e) => setDataForget(e.target.value)}
                 value={dataForget}

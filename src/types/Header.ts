@@ -10,8 +10,8 @@ export type PopupProps = {
   title:string;
   setOpen:(open:boolean)=>void;
   children:ReactNode;
-  active:"phone" | "email";
-  setActive:(active:"phone" | "email")=>void;
+  active?:"phone" | "email";
+  setActive?:(active:"phone" | "email")=>void;
   sendData:()=>void;
 }
 
@@ -21,6 +21,7 @@ export type InputProp = {
   defaultValue?:string;
   name:string;
   onChange:(e:any)=>void;
-  value:string;
+  value:string | undefined;
   regex?:RegExp;
+  enterFunc?:()=>void;
 }

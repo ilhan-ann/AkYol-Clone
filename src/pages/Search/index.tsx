@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useGetAllBrandsByKeyword } from '../../queries/brands'
-import { useGetAllProducts, useGetAllProductsByKeyword } from '../../queries/products'
+import { useGetAllProductsByKeyword } from '../../queries/products'
 import ProductCard from '../../components/ProductCard'
 
 function index() {

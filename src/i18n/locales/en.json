@@ -1,6 +1,9 @@
 {
   "catalog": "Catalog",
   "brands": "Brands",
+  "phone": "Phone",
+  "email": "Email",
+  "password": "Password",
   "login": "Login",
   "signUp": "Sign up",
   "about us": "About Us",

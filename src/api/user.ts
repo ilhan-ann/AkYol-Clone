@@ -1,5 +1,6 @@
 import axios, { type AxiosResponse } from "axios"
 import type { UserDataT, UserLoginDataT } from "../types/User"
+import { axiosInstance } from "./axiosInstance"
 
 export const register = async(data:UserDataT)=>{
   try {
@@ -14,13 +15,16 @@ export const register = async(data:UserDataT)=>{
 
 
 export const login = async(data:UserLoginDataT)=>{
+  console.log(data)
   try {
     let res:AxiosResponse<UserLoginDataT[]> | undefined;
     if (data.email){
       res = await axios.get("http://localhost:5000/users?email="+data.email)
     }else if(data.phone){
-      res = await axios.get("http://localhost:5000/users?phone="+data.phone)
+      console.log(data.phone)
+      res = await axios.get(`http://localhost:5000/users?phone=${data.phone}`)
     }
+    console.log(res)
     if(res && res.status == 200){
       if(res.data[0].password === data.password){
         res.data[0].token = `mock-token-${Math.random().toString(36).substr(2)}`
@@ -29,6 +33,16 @@ export const login = async(data:UserLoginDataT)=>{
         throw new Error("Sizin achar sozuniz yalnysh")
       }
     }
+  } catch (error) {
+    throw new Error("Ýalňyşlyk bar");
+  }
+}
+
+export const updateUser = async(data:UserLoginDataT)=>{
+  try {
+    let res:AxiosResponse<UserLoginDataT[]> | undefined;
+    res = await axiosInstance.patch("users/"+data.id,data)
+    return res;
   } catch (error) {
     throw new Error("Ýalňyşlyk bar");
   }

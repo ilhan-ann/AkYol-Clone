@@ -1,6 +1,9 @@
 {
   "catalog": "Katalog",
   "brands": "Brendler",
+  "phone": "Telefon",
+  "email": "Poçta",
+  "password": "Açar sözi",
   "login": "Içeri gir",
   "signUp": "Registrasiýa",
   "about us": "Biz hakda",

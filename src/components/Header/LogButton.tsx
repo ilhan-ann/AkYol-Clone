@@ -4,11 +4,10 @@ type ButtonType = {
   active?: boolean;
 }
 
-function LogButton({ title, action }: ButtonType) {
+function LogButton({ title, action}: ButtonType) {
   return (
     <div>
       <button onClick={action}>
-        
         <span>{title}</span>
       </button>
     </div>
